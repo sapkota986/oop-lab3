@@ -15,11 +15,11 @@ public:
         angle=a;
     }
 
-    double getRadius() const {
+    double getRadius()  {
         return radius;
     }
 
-    double getAngle() const {
+    double getAngle()  {
         return angle;
     }
     void display(){
@@ -45,7 +45,7 @@ public:
        
     }
 
-    void display() const {
+    void display()  {
         cout << "Cartesian Coordinates: (" << xco << ", " << yco << ")" << endl;
     }
 };
