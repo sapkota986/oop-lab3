@@ -13,11 +13,11 @@ public:
         cin >> rupees >> paisa;
     }
 
-    float toTotalRupees() const {
+    float toTotalRupees()  {
         return rupees + (paisa / 100.0);
     }
 
-    float toUSD() const {
+    float toUSD()  {
         float totalRupees = toTotalRupees();
         return totalRupees / CONVERSION_RATE;
     }
