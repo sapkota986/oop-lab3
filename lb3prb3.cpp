@@ -7,7 +7,7 @@ class Polar
     float radius, angle;
 
 public:
-polar(){
+Polar(){
     radius = 0.0;
      angle = 0.0;
 }
